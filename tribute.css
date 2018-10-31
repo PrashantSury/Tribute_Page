@@ -1,0 +1,65 @@
+body
+{
+     background: url(http://www.sketchuptextureclub.com/public/texture_m/0041-light-beige-travertine-texture-seamless-bump.jpg);
+   font-family: Arial, sans-serif;
+}
+
+#title{
+  text-align:center;
+  text-decoration: underline;
+  color: #F3C420;
+  font-size:40px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border-radius:10px;
+ }
+#img-caption
+{
+   margin:20px;
+   text-align:center;
+}
+#tribute-info{
+  margin:25px auto;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 3px 5px #888888;
+  box-sizing: border-box;
+  width: 700px;
+  height: 670px;
+  background: white;
+}
+
+h4{
+   max-width:550px;
+   margin:0 auto;
+   text-align:center;
+   color:green;
+}
+ul{
+  max-width:550px;
+  margin:5px auto;
+  text-align:left;
+}
+li{
+  margin: 10px;
+}
+footer
+{
+ text-align: center;
+}
+@media (max-width: 730px) { /* CSS Rules */ 
+  #tribute-info{
+    box-sizing: border-box;
+    width: 80% ;
+    background:white;
+  }
+  @media (max-height: 900px) { /* CSS Rules */ 
+  #tribute-info{
+   box-sizing: border-box;
+   height: 120%;
+  }
+}
